@@ -1,0 +1,201 @@
+ <html>
+   <head> 
+    <title> computer architecture </title>
+    </haed>
+   <body> 
+  <font size="7">
+   <h2> list </h2>
+    <ul>
+      <li> Introduction  </li>
+      <li> History </li>
+       <li> Subcatgories 
+    <ul> 
+       <li> instruction </li>
+      <li>  system design </li>
+      <li> micro architecture </li>
+    </ul>
+        <li> Design goals 
+    <ul> 
+       <li>Performance  </li>
+      <li> Power consumption </li>
+      <li> Shifts in market demand </li>
+    </ul>
+        <li>Types of Computer Architecture 
+   <ul> 
+       <li> Von-Neumann Architecture </li>
+      <li> Harvard Architecture </li>
+      
+    </ul>
+    </ul>
+   <font color="black" size"7">
+       <center> Computer Architecture </center>
+  <br>
+<font color="green" size="7">
+* What is Computer Architecture?
+<br>
+<font color="black" size="5">
+Although the term computer architecture sounds very complicated, its definition is easier than one might think.
+Computer architecture is a science or a set of rules stating how computer software and hardware are joined together and interact to make a computer work. 
+It not only determines how the computer works but also of which technologies the computer is capable. 
+Computers continue to be a major part of our lives, and computer architects continue to develop new and better programs and technologies. 
+ create a computer platform or system. When we think of the word architecture, we think of building a house or a building. 
+Keeping that same principle in mind, computer architecture involves building a computer and all that goes into a computer system. 
+Computer architecture consists of three main categories.
+<br>
+ <img src="desktop/computerr ">
+<br>
+<font color="green" size="7"> 
+ *History: 
+<br> 
+<font color="black" size="5">
+The first documented computer architecture was in the correspondence between Charles Babbage and Ada Lovelace, 
+describing the analytical engine. 
+When building the computer Z1 in 1936, Konrad Zuse described in two patent applications for his future projects that machine instructions could be stored in the same storage used for data, i.e., 
+the stored-program concept.[3][4] Two other early and important examples are:
+<br>
+•John von Neumann's 1945 paper, First Draft of a Report on the EDVAC, which described an organization of logical elements;[5] and
+•Alan Turing's more detailed Proposed Electronic Calculator for the Automatic Computing Engine, also 1945 and which cited John von Neumann's paper.[6]
+The term “architecture” in computer literature can be traced to the work of Lyle R. Johnson and Frederick P. Brooks, Jr.,
+members of the Machine Organization department in IBM's main research center in 1959. Johnson had the opportunity to write a proprietary research communication about the Stretch, 
+an IBM-developed supercomputer for Los Alamos National Laboratory(at the time known as Los Alamos Scientific Laboratory). 
+To describe the level of detail for discussing the luxuriously embellished computer, 
+he noted that his description of formats, instruction types, hardware parameters, and speed enhancements were at the level of “system architecture”, 
+a term that seemed more useful than “machine organization”.[7]
+Subsequently, Brooks, a Stretch designer, opened Chapter 2 of a book called Planning a Computer System: 
+Project Stretch by stating, “Computer architecture, like other architecture, is the art of determining the needs of the user of a structure and then designing to meet those needs as effectively as possible within economic and technological constraints.”[8] 
+Brooks went on to help develop the IBM System/360 (now called the IBM zSeries) line of computers, 
+in which “architecture” became a noun defining “what the user needs to know”.[9] 
+Later, computer users came to use the term in many less explicit ways.[10]
+The earliest computer architectures were designed on paper and then directly built into the final hardware form.[11] 
+Later, computer architecture prototypes were physically built in the form of a transistor–transistor logic (TTL) computer—
+such as the prototypes of the 6800 and the PA-RISC—tested, and tweaked, before committing to the final hardware form.
+As of the 1990s, new computer architectures are typically "built", tested, and tweaked—inside some other computer architecture in a computer architecture simulator; 
+or inside a FPGA as a soft microprocessor; or both—before committing to the final hardware form.[12]
+ <br>
+     <center> <img src="Desktop/hh"> </center>
+
+<br>
+<font color="green" size="7">
+*Computer architecture Subcategories*:
+<br>
+<font color="black" size="5">
+  The discipline of computer architecture has three main subcategories:
+<br>
+<font color="blue" size="6">
+ 1.Instruction set architecture –
+<br>
+<font color="black" size="5">
+ The includes the CPU’s functions and capabilities, the CPU’s programming language, data formats, processor register types and instructions used by computer programmers. 
+This part is the software that makes it run, such as Windows or Photoshop or similar programs
+<br>
+<font color="blue" size="6">
+2. System design – 
+<br>
+<font color="black" size="5">
+This includes all the hardware parts, such as CPU, data processors, multiprocessors, memory controllers and direct memory access. 
+This part is the actual computer system.
+<br>
+<font color="blue" size="6">
+3. Microarchitecture – 
+<br>
+<font color="black" size="5">
+This defines the data processing and storage element or data paths and how they should be implemented into the instruction set architecture. 
+These might include DVD storage devices or similar devices.
+<br>
+<font color="green" size="7">
+*Design goals* : 
+<br>
+<font color="black" size="5">
+The exact form of a computer system depends on the constraints and goals. 
+Computer architectures usually trade off standards, power versus performance, cost, memory capacity, latency (latency is the amount of time that it takes for information from one node to travel to the source) and throughput. 
+Sometimes other considerations, such as features, size, weight, reliability, and expandability are also factors.
+ <br>
+<font color="blue" size="6">
+A-Performance :
+<br>
+<font color="black" size="5">
+Modern computer performance is often described in MIPS per MHz (millions of instructions per millions of cycles of clock seed). 
+This measures the efficiency of the architecture at any clock speed. 
+Since a faster clock can make a faster computer, this is a useful, widely applicable measurement. 
+Historic computers had MIPs/MHz as low as 0.1 (See instructions per secon).
+ Simple modern processors easily reach near 1. Superscalar processors may reach three to five by executing several instructions per clock cycle. 
+Multicore and vector processing CPUs can multiply this further by acting on a lot of data per instruction, which have several CPUs executing in parallel.
+Counting machine language instructions would be misleading because they can do varying amounts of work in different ISAs. 
+The "instruction" in the standard measurements is not a count of the ISA's actual machine language instructions, 
+but a historical unit of measurement, usually based on the speed of the VAX computer architecture.
+<br>
+<font color="blue" size="6">
+B-Power consumption:
+<br>
+<font color="black" size="5">
+Power consumption is another measurement that is important in modern computers. 
+Power efficiency can often be traded for speed or lower cost. 
+The typical measurement in this case is MIPS/W (millions of instructions per second per watt).
+Modern circuits have less power per transistor as the number of transistors per chip grows. 
+Therefore, power efficiency has increased in importance.
+ Recent processor designs such as Intel's Haswell (microarchitecture), put more emphasis on increasing power efficiency. 
+Also, in the world of embedded computing, power efficiency has long been and remains an important goal next to throughput and latency.
+<br>
+<font color="blue" size="6">
+C-Shifts in market demand:
+<br>
+<font color="black" size="5">
+Increases in clock frequency have grown more slowly over the past few years, 
+compared to power reduction improvements. 
+This has been driven by the end of Moore's Law and demand for longer battery life and reductions in size for mobile technology. 
+This change in focus from higher clock rates to power consumption and miniaturization can be shown by the significant reductions in power consumption, as much as 50%, 
+that were reported by Intel in their release of the Haswell microarchitecture; where they dropped their power consumption benchmark from 30 to 40 watts down to 10-20 watts.
+[20] Comparing this to the processing speed increase of 3 GHz to 4 GHz (2002 to 2006)[21] 
+it can be seen that the focus in research and development are shifting away from clock frequency and moving towards consuming less power and taking up less space
+<br>
+<font color="green" size="7">
+*Types of Computer Architecture*:
+<br>
+ <font color="blue" size="6">
+1. Von-Neumann Architecture :
+<br>
+<font color="black" size="5">
+ This architecture is proposed by john von-neumann. 
+Now a day’s computer we are using are based on von-neumann architecture. 
+It is based on some concepts.
+The memory we have a single read/write memory available for read and write instructions and data. 
+When we talk about memory, it is nothing but the single location which is used for reading and writing instructions for the data and instructions are also present in it. 
+Data and instructions are stored in a single read/write memory within the computer system.
+Each memory has multiple locations and each location has a unique address. 
+We can address the contents of memory by its location irrespective of what type of data and instructions are present in the memory, because of which we can read or write any data and instructions. 
+Execution always occurs in a sequential manner unless the change is required.
+For example, suppose we are executing an instruction from line 1 to line 10 but now we required to execute line 50 instead of line 11 then we jump There is a bus (address bus/data bus/control bus) used for the instruction and data code execution. 
+Input device takes data or instruction and the Central processing unit (CPU) performs one operation at a time, either fetching data or instruction in/out of the memory. 
+Once the operation is done it is sent to the output device. 
+Control and logic units for processing operations are within the central processing unit.
+to instruction 50 and execute it.
+<br> 
+<font color="blue" size="6">
+2. Harvard Architecture:
+<br>
+<font color="black" size="5">
+Harvard architecture is used when data and code is present in different memory blocks. 
+A separate memory block is needed for data and instruction. 
+Data can be accessed by one memory location and instruction can be accessed by a different location. 
+It has data storage entirely contained within the central processing unit (CPU). 
+A single set of clock cycles is required. The pipeline is possible. 
+It is complex to design. CPU can read and write instructions and process data access. 
+Harvard architecture has different access codes and data address spaces that is, the instruction address zero is not the same as data address zero. 
+Instruction address zero identifies 24-byte value and data address zero identifies 8-byte value which is not the part of the 24-byte value. 
+Modified harvard architecture is like a harvard architecture machine and it has a common address space for the separate data and instruction cache. 
+It has digital signal processors that will execute small or highly audio or video algorithms and it is reproducible. 
+Microcontrollers have a small number of programs and data memory and it speeds up the processing by executing parallel instructions and data access.
+We can observe in the below image, there are separate data and instruction memory that is a bus available to perform operations. 
+It is contained entirely within the Central processing unit. It can perform Input/output operation simultaneously and it has a separate arithmetic and logic unit.
+<br>
+<font color="green" size="7">
+*Source*:
+<br>
+<font color="black" size="5">
+<a herf="http://www.learn about computer architecture.com/">Google </a>
+<br>
+<a herf="learn about computer architecture">techopedia </a>
+ 
+ </body>
+ </html>
+   
